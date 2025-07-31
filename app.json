@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "attendyourself",
+    "name": "Attendy",
     "slug": "attendyourself",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "attendyourself",
+    "scheme": "attendy",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -14,9 +14,11 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#000000"
       },
-      "edgeToEdgeEnabled": true
+      "icon": "./assets/images/icon.png",
+      "edgeToEdgeEnabled": true,
+      "package": "com.thesukhjitbajwa.attendyourself"
     },
     "web": {
       "bundler": "metro",
@@ -31,12 +33,18 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#000000"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a4191e2a-96b4-4041-94ce-8032cf94827e"
+      }
     }
   }
 }
