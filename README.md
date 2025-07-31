@@ -2,6 +2,10 @@
 
 A React Native Expo app for tracking your personal class attendance across multiple courses.
 
+
+## 🚀 Try It Out
+- ([Demo on Expo](https://expo.dev/artifacts/eas/c6HF7Wd4Wu18yzd6V8wRv6.apk)) - View the app in action
+
 ## � Features
 
 ### ✅ Course Management
